@@ -40,6 +40,7 @@
 			children = (
 				11747403218B6CC40025E7B4 /* Light */,
 				11747402218B6CC40025E7B4 /* Products */,
+				119D9F88218B7146009E1112 /* doc */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +63,13 @@
 				11747410218B6CC40025E7B4 /* Info.plist */,
 			);
 			path = Light;
+			sourceTree = "<group>";
+		};
+		119D9F88218B7146009E1112 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
