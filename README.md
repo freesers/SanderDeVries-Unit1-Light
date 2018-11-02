@@ -12,7 +12,5 @@ Sander de Vries (me)
 
 # Acknowledgments
 "App development with Swift" - Apple
-
 Stackoverflow
-
 Minor Programmeren - UvA
