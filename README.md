@@ -8,9 +8,9 @@ Tap the screen to turn the light off, tap again to turn the light back on. In ad
 Download this repository's zip file and open the "Light.xcodeproj" in Xcode. Run on the simulator or install on your own device. Installation on your own device is needed for the flash to work.
 
 # Author
-Sander de Vries (me)
+*Sander de Vries (me)
 
 # Acknowledgments
-"App development with Swift" - Apple
-Stackoverflow
-Minor Programmeren - UvA
+*"App development with Swift" - Apple
+*Stackoverflow
+*Minor Programmeren - UvA
