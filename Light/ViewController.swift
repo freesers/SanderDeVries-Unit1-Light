@@ -11,15 +11,11 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    // Variables
     var lightOn = true
     
-    // Actions
-    @IBAction func buttonPressed(_ sender: Any) {
-        
-        // change lightOn status and change background
-        lightOn = !lightOn
-        updateUI()
+    // Hide status bar
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
     
     override func viewDidLoad() {
@@ -27,12 +23,20 @@ class ViewController: UIViewController {
         updateUI()
     }
     
+    /// Switches light after press
+    @IBAction func buttonPressed(_ sender: Any) {
+        
+        // change lightOn status and change background
+        lightOn = !lightOn
+        updateUI()
+    }
+    
     func updateUI() {
         view.backgroundColor = lightOn ? .white : .black
         toggleFlash()
-        
     }
     
+    /// Use flash if device is capable
     func toggleFlash() {
         
         // initiate media device to adjust flash
@@ -43,7 +47,6 @@ class ViewController: UIViewController {
         
         if flashDevice.hasTorch && flashDevice.isTorchAvailable {
             do {
-                
                 // get lock before setting properties
                 try flashDevice.lockForConfiguration()
                 
