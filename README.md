@@ -6,7 +6,7 @@ Tap the screen to turn the light off, tap again to turn the light back on. In ad
 * App also uses the falsh if possible
 * App hides status bar
 
-![alt text](https://github.com/freesers/SanderDeVries-Unit1-Light/blob/master/doc/Light%20(on)-iPhone%20XS.png)
+![alt text](https://github.com/freesers/Unit1-Light/blob/master/doc/Simulator%20Screen%20Shot%20-%20iPhone%20XS%20-%202018-12-15%20at%2022.47.34.png)
 ![alt text](https://github.com/freesers/Unit1-Light/blob/master/doc/Light%20(off)-iPhone%20XS.png)
 
 # Run the app
